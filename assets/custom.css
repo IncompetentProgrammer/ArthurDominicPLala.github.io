@@ -1,0 +1,63 @@
+#facecam1 {
+    height: 250px;
+}
+
+#T1 {
+    font-family: Arial;
+}
+
+.c-img {                               /*Size of Images used for carousel*/
+    height: 100%;
+    width: 100%;
+}
+
+.c-item {
+    height: 360px;
+}
+
+.paragraph {
+    font-family: 'Times New Roman';
+    text-decoration-color: whitesmoke;
+}
+
+#BackImage {
+    height: 100%;
+}
+
+.textbody {
+  font-size: 16px;
+  font-family: 'Times New Roman';
+}
+
+.texthead {
+  font-family: Arial;
+}
+
+.a-img {
+  height: 240px;
+}
+
+.burgertank{                         /*Position of text of header*/
+    display: inline-block;
+    font-family: Arial;
+  }
+  
+  .typed {                           /*Typing effect I stole from the .typed to the keyframes*/
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 1.5s steps(30, end) forwards, blinking 1s infinite;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-right-color: transparent}
+    50% {border-right-color: black}
+    100% {border-right-color: transparent}
+  }
+  

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Landing Page</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navbar--> <!--litteraly copy-pasted from documentation-->
+        <nav id="navbar-example2" class="navbar navbar-dark bg-dark fixed-top">
+          <div class="container">
+          <a class="navbar-brand" href="#">Navigation</a>
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading2">Trainings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading3">Skills</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+          <!--End of Navbar-->
+        
+          <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0"></div> <!--For scrollspy to work-->
+        
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('./desktop-1920x1080.png')"> 
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-3" id="facecam1" src="fuckface.jpg" alt="..." />
+                <div class="burgertank">
+                  <h1 class="text-white fs-3 fw-bolder">Arthur Dominic P. Lala</h1>
+                  <p class="text-white-50 mb-0 typed">arthurdominic.lala@carsu.edu.ph</p><!--Typed effect stolen from the internet. Can only run once after page is loaded-->
+                </div>
+            </div>
+        </header>
+        <!--End of Header-->
+        <!--Educational Background-->
+        <div id="scrollspyHeading1" class="container-fluid bg-dark border border border-warning py-5">
+          <div class="text-center"><h1 class="text-white-50 fs-3 fw-bolder" id="T1">Educational Background</h1></div>
+            <div class="container bg-white border border-warning my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                      <img src="359732603_657489046417234_7423647705824401008_n.png" class="rounded float-start a-img" alt="CSU logo">
+                        <p class="fs-4 texthead">Caraga State University</p>
+                        <p class="textbody"><b>Year: </b>2019-present</p>
+                        <p class="textbody"><b>Address: </b>KM 7 NH1, Butuan City, Agusan del Norte</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!--End of Educational Background-->
+        <!-- Trainings and Seminars section-->
+        <div id="scrollspyHeading2" class="container-fluid bg-dark border border border-warning py-5">
+          <div class="text-center"><h1 class="text-white-50 fs-3 fw-bolder" id="T1">Trainings and Seminars</h1></div> <!--Title of Section-->
+            <div class="container bg-white border border-warning my-5 pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h3 id="T1"><b>On the Job Training</b></h3>
+                        <p class="paragraph"><b>Location:</b> Department of Environment and Natural Resources <br><b>Date:</b> July 14 – Sept 7, 2022</p>
+                        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel"> <!--Automatically shows images with fade effect-->
+                          <div class="carousel-inner">
+                            <div class="carousel-item c-item">
+                              <img src="20220915_081127.jpg" class="d-block w-100 c-img" alt="...">
+                            </div>
+                            <div class="carousel-item c-item">
+                              <img src="20220915_081401.jpg" class="d-block w-100 c-img" alt="...">
+                            </div>
+                            <div class="carousel-item active c-item">
+                              <img src="20220915_082539.jpg" class="d-block w-100 c-img" alt="...">
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <!--Trainings and Seminars End-->
+        <!-- Skills section-->
+        <div id="scrollspyHeading3" class="container-fluid bg-dark border border border-warning py-5">
+          <div class="text-center"><h1 class="text-white-50 fs-3 fw-bolder" id="T1">Other Skills</h1></div>
+            <div class="container bg-white border border-warning my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <p class="paragraph">Video Editing with Filmora and DaVinci Resolve</p>
+                        <video controls autoplay muted loop src="Vlog for STS.mp4" width="500" alt="Github said it's too big Can't load video"></video> 
+                    </div>
+                </div>
+            </div>
+          </div>
+          <!--Skills End-->
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Landing Page 2023</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
